@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 2px 10px 12px -6px rgba(0, 0, 0, 0.111);
+    z-index: 1000;
+
+}
+
+.logo {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* FIM DO HEADER */
+
+/* INCIO DO TOPO */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner {
+    margin-top: 10px;
+}
+
+.banner .banDesk {
+    display: block;
+    width: 100%;
+}
+
+
+.icons {
+    width: 91%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-top: 1px solid #CBA2A0;
+    border-bottom: 1px solid #CBA2A0;
+}
+
+.icons i {
+    font-size: 25px;
+    color: #CBA2A0;
+    margin-right: 10px;
+}
+
+.icons p {
+    font-family: 'Montserrat';
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.top-text {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.top-text h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Caveat';
+    font-weight: bolder;
+    line-height: 0.8;
+    font-size: 80px;
+    color: #CBA2A0;
+    padding: 30px;
+}
+
+/* FIM DO TOPO */
+
+/* INICIO DO MAIN */
+
+.main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    margin-top: 50px;
+    background-color: #CBA2A0;
+    color: white;
+    
+}
+
+.main .text-main {
+    align-items: center;
+    justify-content: center;
+}
+
+.text-main p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-bottom: 60px;
+}
+
+.vantagens {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vantagens .img-vantagem {
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vantagens img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+}
+
+.vantagens img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.vantagens h1 {
+    width: 250px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    
+
+}
+
+.vantagens p {
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    
+}
+
+
+ .btn-1 {
+    margin: 40px auto;
+    display: block;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat';
+    font-size: 12pt ;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    
+}
+
+.btn-1 i {
+    color: #25d366;
+    font-size: 20px;
+}
+
+.btn-1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+/* FIM MAIN  */
+
+/* INICIO COSTUMERS  */
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customers h1 {
+    padding: 40px 5px 20px 5px;
+    width: 60%;
+    font-size: 20pt;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #CBA2A0;
+}
+
+.star-rating {
+    padding: 0px 5px 40px 5px;
+    color: gold;
+    font-size: 20pt;
+    letter-spacing: 10px;
+    
+    
+}
+
+.feedback {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-feedback img {
+    width: 500px;
+    padding: 10px;
+}
+
+
+.carrossel-container {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 444px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel {
+    display: flex;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.video {
+    flex: 0 0 100%; 
+}
+
+.vd {
+    width: 250px;
+    height: 444px;
+}
+
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 15px;
+}
+
+.next-btn {
+    right: 15px;
+}
+
+
+/* FIM FEEDBACK  */
+
+/* INICIO PREÇO  */
+
+
+.valor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    margin-bottom: 60px;
+}
+
+.valor img {
+    width: 100%;
+}
+
+.valor button {
+    background-color: #CBA2A0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px 25px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-size: 14pt;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.valor button:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+
+/* FIM DO BODY  */
+
+/* INICIO DO FOOTER */
+
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #CBA2A0;
+    padding: 30px 15px;
+    font-family: 'Montserrat';
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.left-content img {
+    width: 150px;
+}
+
+.left-content p {
+    font-size: 10pt;
+    line-height: 20pt;
+    color: white;
+}
+
+.center-content h1 {
+    font-size: 14pt;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.center-content p {
+    font-size: 10pt;
+    line-height: 20pt;
+    color: white;
+}
+
+.right-content h1 {
+    font-size: 14pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.right-content i {
+    font-size: 20pt;
+    letter-spacing: 20pt;
+    color: #ffffff;
+}
+
+.sloth {
+    
+    text-align: center;
+    padding: 5px;
+}
+
+.sloth img {
+    width: 80px;
+}
+
+/* FIM DO DESKTOP */
+
+
+/* INICIO DO RESPONSIVO */
+
+
+/* MEDIDAS PARA TABLET */
+
+@media only screen and (max-width: 992px){
+    .container {
+        width: 100%;
+    }
+    
+    .banner {
+        width: 80%;
+    }
+
+    .banner img{
+        content: url('images/banner-responsivo.jpg');
+    }
+    
+    
+    .icons p {
+        font-size: 11pt;
+    }
+
+    .top-text {
+        width: 100%;
+    }
+    
+    .top-text h1 {
+        font-size: 50pt;
+        padding: 10px;
+    }
+    
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .vantagens{
+        display: flex;
+        align-items: start;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .vantagens img{
+        width: 200px;
+        
+    }
+
+    .vantagens h1{
+        font-size: 14pt;
+    }
+
+    .vantagens p{
+        font-size: 12pt;
+    }
+    
+    .customers{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .customers h1{
+        width: 80%;
+        
+        font-size: 17pt;
+    }
+    
+    .feedback{
+        width: 100%;
+        display: flex;
+    }
+    
+    .star-rating {
+        margin-top: 25px;
+    }
+    
+    .img-feedback img{
+        width: 420px;
+    }
+    
+    .img-valor{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+        
+    }
+    
+    .right-content{
+        margin-top: 15px;
+    }
+    
+    .right-content i{
+        font-size: 20pt;
+        letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .feedback{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vantagens {   
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+/* MEDIDAS PARA CELULAR */
+
+@media only screen and (max-width: 540px){
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+    }
+
+    .banner img{
+        content: url('images/banner-responsivo.jpg');
+    }
+    
+    .icons p {
+        font-size: 8pt;
+    }
+    
+    .top-text h1 {
+        font-size: 25pt;
+        padding: 10px;
+    }
+    
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .vantagens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+   
+    .customers{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .customers h1{
+        width: 80%;
+        font-size: 12pt;
+    }
+
+    .feedback{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    
+    .img-feedback img{
+        width: 100%;
+        
+    }
+    
+    .img-valor{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        
+    }
+    
+    
+    .center-content{
+        display: none;
+    }
+    
+    .right-content{
+        margin-top: 15px;
+        
+    }
+    
+    .right-content i{
+        font-size: 20pt;
+        letter-spacing: 10px;
+    }
+    
+}
